@@ -1,3 +1,0 @@
-# Jewellery: gyfyghgtyyu
-
-# Rings:
