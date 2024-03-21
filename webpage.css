@@ -118,6 +118,10 @@ article {
 .social-icons2 ul a {
   display: flex;
 }
+svg path {
+  max-width: 100%;
+  height: auto;
+}
 .footer {
   background-color: var(--color-secondary);
   color: var(--color-third);
@@ -125,10 +129,9 @@ article {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .footer-left,
@@ -152,18 +155,13 @@ article {
   list-style: none;
   padding: 0;
   display: flex;
-  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .social-icons ul {
   display: flex;
   align-items: center;
 }
-
-.social-icons li {
-  margin-right: 10px;
-}
-
 .social-icons a {
   color: #fff;
   font-size: 24px;
